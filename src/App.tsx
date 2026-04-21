@@ -1,6 +1,7 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import FloatingButtons from './components/FloatingButtons';
 import Home from './pages/Home';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfUse from './pages/TermsOfUse';
@@ -22,6 +23,7 @@ export default function App() {
         </main>
 
         <Footer />
+        <FloatingButtons />
       </div>
     </Router>
   );

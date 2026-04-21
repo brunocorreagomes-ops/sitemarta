@@ -13,7 +13,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-8 mb-12 uppercase tracking-widest text-[10px] sm:text-xs font-semibold flex-wrap">
           <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="hover:text-rose-gold transition-colors text-bordeaux/70 focus-visible:ring-2 focus-visible:ring-rose-gold focus-visible:outline-none rounded-sm px-2 py-1">WhatsApp</a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-rose-gold transition-colors text-bordeaux/70 focus-visible:ring-2 focus-visible:ring-rose-gold focus-visible:outline-none rounded-sm px-2 py-1 flex items-center gap-2">
+          <a href="https://www.instagram.com/martaanachiconato" target="_blank" rel="noopener noreferrer" className="hover:text-rose-gold transition-colors text-bordeaux/70 focus-visible:ring-2 focus-visible:ring-rose-gold focus-visible:outline-none rounded-sm px-2 py-1 flex items-center gap-2">
             <Instagram size={14} />
             Instagram
           </a>
