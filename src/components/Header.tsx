@@ -37,7 +37,10 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <Link to="/" onClick={() => window.scrollTo(0, 0)} className="flex items-center gap-3 focus-visible:ring-2 focus-visible:ring-rose-gold focus-visible:outline-none rounded-sm">
            <img src="https://i.ibb.co/9m7gv3qn/IMG-7768.webp" alt="Marta Ana Chiconato Logo" className="h-12 w-auto" />
-           <div className="hidden md:block font-serif text-xl tracking-[0.2em] uppercase">Marta Ana Chiconato</div>
+           <div className="hidden md:flex flex-col">
+             <span className="font-serif text-xl tracking-[0.2em] uppercase leading-none">Marta Ana Chiconato</span>
+             <span className="font-sans text-[0.6rem] tracking-[0.3em] font-medium uppercase text-rose-gold mt-1">Terapia Integrativa</span>
+           </div>
         </Link>
         
         <div className="hidden md:flex items-center space-x-8 uppercase tracking-widest text-xs font-medium">
